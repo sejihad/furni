@@ -1,0 +1,72 @@
+.contact {
+  padding: 8rem 0 10rem 0;
+  background-color: #eff2f1;
+}
+.contact-section {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.contact-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 4rem;
+}
+
+.input {
+  display: inline-block;
+  width: 48%;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+.lname {
+  margin-left: 14px;
+}
+.c-email {
+  display: block;
+  width: 99%;
+  margin-top: 2.5rem;
+  padding: 1rem 0.8rem;
+  border-radius: 11px;
+  border: 1px solid #ddd;
+}
+.contact-form textarea {
+  resize: none;
+  border: 1px solid #ddd;
+  width: 99%;
+  display: block;
+  padding: 3.5rem 0;
+  margin-top: 1.8rem;
+  border-radius: 8px;
+}
+.contact-form button {
+  border: none;
+  display: inline-block;
+  padding: 1.2rem 1.8rem;
+  background: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 13px;
+  border-radius: 31px;
+}
+.contact-details li {
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 5px;
+  color: #6a6a6a;
+}
+.contact-details li span {
+  font-size: 14px;
+  display: inline-block;
+  color: white;
+  background-color: #3b5d50;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  margin-right: 18px;
+  line-height: 40px;
+  border-radius: 10px;
+}

@@ -1,0 +1,28 @@
+.blog {
+  padding: 8rem 0 10rem;
+}
+.blog-container {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.7rem;
+  row-gap: 2rem;
+}
+.blog-details img {
+  border-radius: 21px;
+  margin-bottom: 23px;
+}
+.blog-details h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0px 10px 17px;
+  color: #2f2f2f;
+}
+.blog-details p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f2f2f;
+  margin-left: 17px;
+}
+.blog-details p span {
+  color: #2f2f2f;
+  opacity: 0.5;
+}

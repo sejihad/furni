@@ -1,0 +1,17 @@
+.testimonial {
+  padding: 5rem 0 12rem 0;
+}
+.w-ch-us-container {
+  grid-template-columns: auto;
+}
+
+.w-ch-us {
+  padding: 8rem 0 3rem 0;
+  background-color: #eff2f1;
+}
+.w-ch-card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4.8rem;
+  row-gap: 3.5rem;
+}

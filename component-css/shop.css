@@ -1,0 +1,12 @@
+/* shop css */
+.shop {
+  padding: 8rem 0;
+}
+
+.product {
+  padding: 8rem 0 12rem 0;
+}
+/* product */
+.product-container {
+  row-gap: 3rem;
+}
